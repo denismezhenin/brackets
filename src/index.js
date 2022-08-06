@@ -1,3 +1,3 @@
 module.exports = function check(str, bracketsConfig) {
-  // your solution
+  return bracketsConfig.every(item => str.includes(item.join('')))
 }
